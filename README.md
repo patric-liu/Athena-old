@@ -6,7 +6,7 @@ The evolutionary method used works by creating multiple slightly tweaked version
 This evolutionary approach relies on accurate yet efficient simulations of relevant physical systems, dynamics randomization, generated race maps, and reading of real weather data. The next step for this project would be to explore the use of reinforcement learning methods in this system of massively delayed rewards. 
 
 ## Docs
-------
+
 
 trainer.py - Training interface that allows you to specify training hyperparameters
 
@@ -18,7 +18,7 @@ car.py - Contains functions which model the physical behavior of the car
 
 network_self.py - Contains neural network functionality
 
-future functionality:
+###future functionality
 
 generate_environment.py - Generates a random race map 
 
@@ -32,6 +32,6 @@ Athenas/ - Holds all saved versions of Athena
 
 
 ## Aside
-------
+
 
 Solar vehicle racing is at its core, a challenge of vehicle energy efficiency and energy management. When building a solar vehicle, vast amounts of time are rightfully spent on design, manufacturing, and testing for reliability - the building of the car. However once at the race, much of this effort can be quickly negated if race strategy is conducted poorly. Hopefully, Athena can support my team during the race and allow the vehicle that everyone spent so long desinging and building to perform to the best of its ability. 
