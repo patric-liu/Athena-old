@@ -18,7 +18,7 @@ car.py - Contains functions which model the physical behavior of the car
 
 network_self.py - Contains neural network functionality
 
-###future functionality
+### future functionality
 
 generate_environment.py - Generates a random race map 
 
