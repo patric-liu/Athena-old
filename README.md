@@ -8,27 +8,27 @@ This evolutionary approach relies on accurate yet efficient simulations of relev
 ## Docs
 
 
-trainer.py - Training interface that allows you to specify training hyperparameters
+* ```trainer.py``` - Training interface that allows you to specify training hyperparameters
 
-evolve.py - Implements the evolution algorithm
+* ```evolve.py``` - Implements the evolution algorithm
 
-race.py - Runs athena through a simulation
+* ```race.py``` - Runs athena through a simulation
 
-car.py - Contains functions which model the physical behavior of the car
+* ```car.py``` - Contains functions which model the physical behavior of the car
 
-network_self.py - Contains neural network functionality
+* ```network_self.py``` - Contains neural network functionality
 
 ### future functionality
 
-generate_environment.py - Generates a random race map 
+* ```generate_environment.py``` - Generates a random race map 
 
-read_weather_data.py - Reads live NOAA data for 
+* ```read_weather_data.py``` - Reads live NOAA data for 
 
-interpret_weather.py - Applies 1-d convolution and pooling to high-dimensional weather and map data to extract lower dimensional features to input to the neural network
+* ```interpret_weather.py``` - Applies 1-d convolution and pooling to high-dimensional weather and map data to extract lower dimensional features to input to the neural network
 
-run_Athena -  runs Athena, pulling data from live telemetry feed, weather forecasts and if needed, human input
+* ```run_Athena``` -  runs Athena, pulling data from live telemetry feed, weather forecasts and if needed, human input
 
-Athenas/ - Holds all saved versions of Athena
+* ```Athenas/``` - Holds all saved versions of Athena
 
 
 ## Aside
